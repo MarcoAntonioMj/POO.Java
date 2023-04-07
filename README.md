@@ -44,7 +44,7 @@ public class Main {
 Execute o programa e verifique se a saudação foi impressa corretamente.
 
 # 5 exercícios para praticar POO em Java:
-- Crie uma classe "Carro" com os campos "modelo", "ano" e "preço". Adicione um método "desconto" que recebe um valor como parâmetro e diminui o preço do carro por esse valor.
+- Crie uma classe "Carro" com os campos "modelo", "ano" e "preço". Adicione um método "desconto" que recebe um valor como parâmetro e diminui o preço do carro por esse valor.[Clique aqui para acessar o exer.](https://github.com/MarcoAntonioMj/POO.Java/tree/main/Atividade%201)
 
  - Crie uma classe "ContaBancaria" com os campos "titular", "saldo" e "limite". Adicione métodos "depositar" e "sacar" que atualizam o saldo da conta. Certifique-se de que o método "sacar" não permita que o saldo da conta fique negativo.
 
@@ -67,3 +67,29 @@ Dicas:
 É um mecanismo que permite criar uma nova classe a partir de uma classe existente, aproveitando seus atributos e métodos. A nova classe é chamada de classe derivada ou subclasse, e a classe existente é chamada de classe base ou superclasse. A subclasse pode adicionar novos atributos e métodos, ou substituir os métodos existentes da superclasse. A herança é importante porque permite a reutilização de código e facilita a criação de hierarquias de classes que refletem a organização do mundo real.
 
 Esses conceitos são fundamentais para o desenvolvimento de software em POO e ajudam a tornar o código mais organizado, modular e reutilizável.
+
+## Primeira atividade fiz em dupla com um colega listarei as etapas e as dificuldades encontradas ;
+Descrição geral: Hoje trabalhamos juntos para criar um programa que permite ao usuário escolher um modelo de carro, informar o ano e o preço do carro, e aplicar um desconto se o preço for maior que R$ 15.000.
+
+Tecnologias utilizadas: Java
+
+Etapas do projeto:
+
+1. Definimos o escopo do projeto e identificamos as funcionalidades necessárias.
+2. Criamos uma classe chamada "carro" para armazenar informações do carro, como preço e desconto aplicado.
+3. Implementamos o método "aplicarDesconto()" na classe "carro", que verifica se o preço é maior que R$ 15.000 e aplica um desconto de 10%.
+4. Criamos uma classe principal chamada "App" para lidar com a interação com o usuário.
+5. Adicionamos um menu para que o usuário possa selecionar um modelo de carro.
+6. Implementamos a lógica para que o usuário possa escolher novamente caso selecione uma opção inválida.
+7. Adicionamos a opção para o usuário informar o ano e preço do carro.
+8. Implementamos a lógica para aplicar o desconto no preço do carro caso o preço seja maior que R$ 15.000.
+9. Finalizamos o programa e testamos para garantir que todas as funcionalidades estavam funcionando corretamente.
+##  Dificuldades encontradas:
+
+No início, tivemos dificuldade em entender como implementar a lógica para aplicar o desconto no preço do carro. Foi necessário revisar alguns conceitos de programação orientada a objetos para criar a classe "carro" e o método "aplicarDesconto()" corretamente.
+Também tivemos dificuldade em lidar com a interação com o usuário e garantir que o programa fosse capaz de lidar com entradas inválidas do usuário. Foi necessário implementar a lógica para permitir que o usuário escolha novamente caso selecione uma opção inválida.
+Como resolvemos as dificuldades:
+
+Revisamos conceitos de programação orientada a objetos e utilizamos exemplos de implementações similares para criar a classe "carro" e o método "aplicarDesconto()" corretamente.
+Implementamos a lógica para lidar com entradas inválidas do usuário utilizando o comando "switch" e um loop "while" para garantir que o programa permita que o usuário selecione novamente caso selecione uma opção inválida.
+
