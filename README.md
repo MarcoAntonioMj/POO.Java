@@ -44,9 +44,9 @@ public class Main {
 Execute o programa e verifique se a saudação foi impressa corretamente.
 
 # 5 exercícios para praticar POO em Java:
-- Crie uma classe "Carro" com os campos "modelo", "ano" e "preço". Adicione um método "desconto" que recebe um valor como parâmetro e diminui o preço do carro por esse valor.[Clique aqui para acessar o exer.](https://github.com/MarcoAntonioMj/POO.Java/tree/main/Atividade%201)
+- Crie uma classe "Carro" com os campos "modelo", "ano" e "preço". Adicione um método "desconto" que recebe um valor como parâmetro e diminui o preço do carro por esse valor.[Clique aqui para acessar o exer 1 ](https://github.com/MarcoAntonioMj/POO.Java/tree/main/Atividade%201)
 
- - Crie uma classe "ContaBancaria" com os campos "titular", "saldo" e "limite". Adicione métodos "depositar" e "sacar" que atualizam o saldo da conta. Certifique-se de que o método "sacar" não permita que o saldo da conta fique negativo.
+- Crie uma classe "conta" com os métodos "depositar", "sacar", "inicializarConta" e "exibirDados". A classe deve conter os atributos "numero" e "saldo". O método "sacar" deve verificar se o valor do saque é maior que o saldo disponível. O programa deve ter uma opção para o usuário selecionar qual operação realizar (depósito, saque, mostrar dados da conta ou sair). O programa deve continuar em execução até que o usuário selecione a opção "sair"..Clique aqui para acessar o exer 2 ](https://github.com/MarcoAntonioMj/POO.Java/tree/main/Atividade%202)
 
 - Crie uma classe "Retangulo" com os campos "base" e "altura". Adicione métodos "area" e "perimetro" que calculam a área e o perímetro do retângulo.
 
@@ -67,6 +67,8 @@ Dicas:
 É um mecanismo que permite criar uma nova classe a partir de uma classe existente, aproveitando seus atributos e métodos. A nova classe é chamada de classe derivada ou subclasse, e a classe existente é chamada de classe base ou superclasse. A subclasse pode adicionar novos atributos e métodos, ou substituir os métodos existentes da superclasse. A herança é importante porque permite a reutilização de código e facilita a criação de hierarquias de classes que refletem a organização do mundo real.
 
 Esses conceitos são fundamentais para o desenvolvimento de software em POO e ajudam a tornar o código mais organizado, modular e reutilizável.
+
+# Primeira atividade
 
 ## Primeira atividade fiz em dupla com um colega listarei as etapas e as dificuldades encontradas ;
 Descrição geral: Hoje trabalhamos juntos para criar um programa que permite ao usuário escolher um modelo de carro, informar o ano e o preço do carro, e aplicar um desconto se o preço for maior que R$ 15.000.
@@ -92,4 +94,14 @@ Como resolvemos as dificuldades:
 
 Revisamos conceitos de programação orientada a objetos e utilizamos exemplos de implementações similares para criar a classe "carro" e o método "aplicarDesconto()" corretamente.
 Implementamos a lógica para lidar com entradas inválidas do usuário utilizando o comando "switch" e um loop "while" para garantir que o programa permita que o usuário selecione novamente caso selecione uma opção inválida.
+# segunda atividade
+Descrição do Projeto:
+Este projeto consiste na implementação de uma aplicação bancária simples que permite realizar operações básicas de depósito e saque em uma conta bancária. Para isso, é criada uma classe chamada "Conta" que possui as informações necessárias para representar uma conta bancária, como número e saldo.
 
+Etapas do Projeto:
+
+1. Inicialização da conta bancária com um número predefinido;
+2. Criação do menu de opções para que o usuário possa escolher entre depositar, sacar ou mostrar informações da conta;
+3. Implementação das funcionalidades de depósito, saque e exibição de informações da conta;
+4. Verificação da possibilidade de realizar um saque com o saldo atual da conta;
+5. Finalização do programa e teste das funcionalidades implementadas.
