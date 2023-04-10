@@ -46,7 +46,7 @@ Execute o programa e verifique se a saudação foi impressa corretamente.
 # 5 exercícios para praticar POO em Java:
 - Crie uma classe "Carro" com os campos "modelo", "ano" e "preço". Adicione um método "desconto" que recebe um valor como parâmetro e diminui o preço do carro por esse valor.[Clique aqui para acessar o exer 1 ](https://github.com/MarcoAntonioMj/POO.Java/tree/main/Atividade%201)
 
-- Crie uma classe "conta" com os métodos "depositar", "sacar", "inicializarConta" e "exibirDados". A classe deve conter os atributos "numero" e "saldo". O método "sacar" deve verificar se o valor do saque é maior que o saldo disponível. O programa deve ter uma opção para o usuário selecionar qual operação realizar (depósito, saque, mostrar dados da conta ou sair). O programa deve continuar em execução até que o usuário selecione a opção "sair"..Clique aqui para acessar o exer 2 ](https://github.com/MarcoAntonioMj/POO.Java/tree/main/Atividade%202)
+- Crie uma classe "conta" com os métodos "depositar", "sacar", "inicializarConta" e "exibirDados". A classe deve conter os atributos "numero" e "saldo". O método "sacar" deve verificar se o valor do saque é maior que o saldo disponível. O programa deve ter uma opção para o usuário selecionar qual operação realizar (depósito, saque, mostrar dados da conta ou sair). O programa deve continuar em execução até que o usuário selecione a opção "sair"..[Clique aqui para acessar o exer 2 ](https://github.com/MarcoAntonioMj/POO.Java/tree/main/Atividade%202)
 
 - Crie uma classe "Retangulo" com os campos "base" e "altura". Adicione métodos "area" e "perimetro" que calculam a área e o perímetro do retângulo.
 
