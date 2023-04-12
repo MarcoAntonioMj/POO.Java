@@ -94,7 +94,9 @@ Como resolvemos as dificuldades:
 
 Revisamos conceitos de programação orientada a objetos e utilizamos exemplos de implementações similares para criar a classe "carro" e o método "aplicarDesconto()" corretamente.
 Implementamos a lógica para lidar com entradas inválidas do usuário utilizando o comando "switch" e um loop "while" para garantir que o programa permita que o usuário selecione novamente caso selecione uma opção inválida.
-# segunda atividade
+
+## segunda atividade
+
 Descrição do Projeto:
 Este projeto consiste na implementação de uma aplicação bancária simples que permite realizar operações básicas de depósito e saque em uma conta bancária. Para isso, é criada uma classe chamada "Conta" que possui as informações necessárias para representar uma conta bancária, como número e saldo.
 
@@ -105,3 +107,33 @@ Etapas do Projeto:
 3. Implementação das funcionalidades de depósito, saque e exibição de informações da conta;
 4. Verificação da possibilidade de realizar um saque com o saldo atual da conta;
 5. Finalização do programa e teste das funcionalidades implementadas.
+
+## Terceira atividade
+Este é um simples programa em Java que calcula a área e o perímetro de um retângulo. O programa consiste em uma classe Retangulo que possui os atributos base e altura, bem como métodos para calcular a área e o perímetro.
+
+Também há uma classe Retangulotest que realiza testes unitários na classe Retangulo. E, por fim, há uma classe App que utiliza a classe Retangulo para pedir ao usuário a base e a altura do retângulo e exibe os resultados na tela.
+Uma coisa difente que fiz das outras atividades vou adicionar  um teste que ficou assim :
+
+```
+package calculo;
+
+import org.junit.Test;
+import static org.junit.Assert.*;
+
+public class Retangulotest {
+  @Test
+  public void testArea() {
+    Retangulo retangulo = new Retangulo(5, 10);
+    double resultado = retangulo.area();
+    double esperado = 50;
+    assertEquals(esperado, resultado, 0);
+  }
+}
+```
+Se quiser ver mais sobre os teste que eu estou aprendendo a fazer [clique aqui](https://github.com/MarcoAntonioMj/calculadora-java-junit)
+## Quarta  atividade
+O código se trata de um programa que lê as notas de um aluno em três disciplinas (matemática, português e ciências), calcula a média das notas e exibe o resultado na tela, junto com o nome e a idade do aluno.
+
+A classe Notas é responsável por armazenar as notas do aluno e calcular a média. Ela possui um construtor que recebe as notas como parâmetros e métodos para acessar e modificar cada uma delas. O método media calcula a média das notas.
+
+A classe Main é responsável por ler os dados do aluno (nome, idade e notas), criar um objeto da classe Notas, calcular a média e exibir as informações na tela
