@@ -139,7 +139,7 @@ A classe Notas é responsável por armazenar as notas do aluno e calcular a méd
 A classe Main é responsável por ler os dados do aluno (nome, idade e notas), criar um objeto da classe Notas, calcular a média e exibir as informações na tela.
 
 ## Quinta atividade
-Na quinta atividade tiver que aprender criar listar o exemplo que eu peguei de base para estudos foi esse : 
+Na quinta atividade tive que aprender a criar e listar. O exemplo que eu utilizei como base para meus estudos foi o seguinte:
 ```
 import java.util.ArrayList;
 import java.util.Scanner;
