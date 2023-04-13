@@ -136,4 +136,102 @@ O código se trata de um programa que lê as notas de um aluno em três discipli
 
 A classe Notas é responsável por armazenar as notas do aluno e calcular a média. Ela possui um construtor que recebe as notas como parâmetros e métodos para acessar e modificar cada uma delas. O método media calcula a média das notas.
 
-A classe Main é responsável por ler os dados do aluno (nome, idade e notas), criar um objeto da classe Notas, calcular a média e exibir as informações na tela
+A classe Main é responsável por ler os dados do aluno (nome, idade e notas), criar um objeto da classe Notas, calcular a média e exibir as informações na tela.
+
+## Quinta atividade
+Na quinta atividade tiver que aprender criar listar o exemplo que eu peguei de base para estudos foi esse : 
+```
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class ExemploListaPessoas {
+    public static void main(String[] args) {
+        ArrayList<String> listaPessoas = new ArrayList<>();
+        Scanner scanner = new Scanner(System.in);
+
+        while (true) {
+            System.out.println("Escolha uma opção:");
+            System.out.println("1 - Adicionar pessoa");
+            System.out.println("2 - Remover pessoa");
+            System.out.println("3 - Listar pessoas");
+            System.out.println("4 - Sair");
+
+            int opcao = scanner.nextInt();
+
+            if (opcao == 1) {
+                System.out.print("Digite o nome da pessoa: ");
+                String nome = scanner.next();
+                listaPessoas.add(nome);
+                System.out.println(nome + " foi adicionado à lista.");
+            } else if (opcao == 2) {
+                System.out.print("Digite o índice da pessoa que deseja remover: ");
+                int indice = scanner.nextInt();
+                if (indice >= 0 && indice < listaPessoas.size()) {
+                    String nomeRemovido = listaPessoas.remove(indice);
+                    System.out.println(nomeRemovido + " foi removido da lista.");
+                } else {
+                    System.out.println("Índice inválido.");
+                }
+            } else if (opcao == 3) {
+                System.out.println("Lista de pessoas:");
+                for (int i = 0; i < listaPessoas.size(); i++) {
+                    System.out.println(i + ": " + listaPessoas.get(i));
+                }
+            } else if (opcao == 4) {
+                break;
+            } else {
+                System.out.println("Opção inválida.");
+            }
+        }
+
+        scanner.close();
+    }
+}
+```
+# Projeto de Cadastro de Clientes e Contas Bancárias
+
+Este projeto foi desenvolvido para cadastrar clientes e suas contas bancárias. O projeto foi feito em Java e é composto por duas classes: Main e Contas.
+
+O objetivo deste projeto é ajudar o usuário a gerenciar uma lista de clientes e suas contas bancárias, permitindo adicionar, remover e mostrar clientes.
+
+## Passo a passo do desenvolvimento:
+
+# Criação da classe Contas:
+
+A classe Contas é responsável por gerenciar a lista de contas bancárias dos clientes.
+
+Foi criado um atributo privado do tipo ArrayList para armazenar as contas bancárias dos clientes.
+
+Foi criado um método para adicionar uma nova conta à lista de contas.
+
+Foi criado um método para remover um cliente e sua conta da lista de contas.
+
+##Criação da classe Main:
+
+A classe Main é responsável pela interação com o usuário e pela chamada dos métodos da classe Contas.
+
+Foi criado um loop while para que o usuário possa escolher as opções do programa.
+
+Foi criado um menu com quatro opções: adicionar um novo cliente e conta, remover um cliente, mostrar a lista de clientes e contas e sair do programa.
+
+Foi criado um if/else if/else para cada opção do menu.
+
+Erros cometidos e suas correções:
+
+No primeiro if/else if/else do menu, a opção 2 aparecia duas vezes. Corrigido para que a opção 2 seja para remover um cliente e a opção 3 seja para mostrar a lista de clientes e contas.
+
+No terceiro if do menu, o nome da lista de clientes estava incorreto. Corrigido para o nome correto da lista.
+
+No terceiro if do menu, foi adicionado um for loop para percorrer as listas de clientes e contas e imprimir o nome do cliente e sua conta bancária.
+
+## Dúvidas:
+
+## .remove
+.remove(), ele é utilizado para remover um elemento específico de uma lista. No caso do nosso código, utilizamos o método .remove() para remover um cliente e sua respectiva conta bancária das listas listaClientes e listaContas, respectivamente.
+
+##  ArrayList<String> listaClientes e ArrayList<Integer> listaContas
+Já sobre ArrayList<String> listaClientes e ArrayList<Integer> listaContas, essas são variáveis que representam listas de strings e inteiros, respectivamente. No caso do nosso código, utilizamos essas listas para armazenar os nomes dos clientes e o número de suas contas bancárias, respectivamente.
+
+
+
+
