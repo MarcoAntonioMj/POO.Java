@@ -206,7 +206,7 @@ Foi criado um método para adicionar uma nova conta à lista de contas.
 
 Foi criado um método para remover um cliente e sua conta da lista de contas.
 
-##Criação da classe Main:
+## Criação da classe Main:
 
 A classe Main é responsável pela interação com o usuário e pela chamada dos métodos da classe Contas.
 
